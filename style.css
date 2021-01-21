@@ -1,0 +1,49 @@
+*{
+    padding : 0;
+    margin : 0;
+    
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+body{
+    background-color : rgb(255, 255, 255)!important;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    text-align: center;
+    flex-direction: column;
+    padding : 3rem;
+}
+
+h1{
+    text-align: center;
+    margin: 14px;
+    color : rgb(255, 53, 53);
+    font-size : 5rem;
+}
+
+form{
+ width:500px;
+     background : lightblue;
+     padding : 10px;
+}
+
+.form-group{
+    margin: 1rem;
+    box-shadow : 2px 4px 8px solid black;
+}
+
+label{
+    font-size: 1rem;
+    color : white;
+}
+
+#submit{
+    margin: 1rem;
+}
+
+@media(max-width:500px){
+    form{
+        width: 350px;
+    }
+}
